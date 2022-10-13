@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400;600;700&family=Poppins:ital@0;1&family=Qwitcher+Grypen:wght@700&display=swap');
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+  }
+
+  *{
+    margin: 0;
+    padding:0;
+    font-family:'Open Sans', sans-serif;
+  }
+
+  body{
+    background-color: var(--page-background);
+    height: 100vh;
+  }
+
+.inicio{
+    height: 350px;
+    width: 100%;
+    background-color: var(--blue);
+    color: var(--page-background);
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    height: 50px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    height: 50px;
+    width: 100%;
+    margin: 130px 0 0 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.free{
+    position: absolute;
+    width: 355px;
+    height: 470px;
+    left: 70px;
+    top: 310px;
+    background-color: var(--page-background);
+    border-radius:8px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.basico{
+    position: absolute;
+    width: 355px;
+    height: 490px;
+    left: 475px;
+    top: 275px;
+    background-color: var(--page-background);
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.header2{
+    color: var(--blue);
+    padding: 3px;
+    height: 80px;
+    background-color: var(--yellow);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular{
+    background-color: var(--blue);
+    color: var(--page-background);
+    height: 25px;
+    width: 90px;
+    margin-left: 170px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.profissional{
+    position: absolute;
+    width: 355px;
+    height: 470px;
+    left: 850px;
+    top: 310px;
+    background-color: var(--page-background);
+    border-radius:8px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.button{
+    border: solid 1px var(--blue);
+    border-radius: 5px;
+    height: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.button a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.button:hover{
+    color: var(--page-background);
+    background-color: var(--blue);
+}
